@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php //Script 3.3 handle_form.php
-        ini_set('display_erros', 1); //let me learn from my errors
+        ini_set('display_errors', 1); //let me learn from my errors
         error_reporting(E_ALL | E_STRICT); //show all possible problems
 
 //this page receives data from feedback.html

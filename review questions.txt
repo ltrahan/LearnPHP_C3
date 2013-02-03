@@ -1,0 +1,16 @@
+Review - Chapter 3
+
+1. a form action tells where the information submitted should be used.
+
+2. the method describes how to pass the data, either GET or POST. POST is more secure, GET would be used in the case that the resulting page might be something a user would bookmark.
+
+3. The predefined variable is $_post.
+
+4. So that the php script that gets loaded is also passed through a URL
+
+5. Enabling display_errors in the script will not work when, due to other reasons, the webpage breaks and the script doesn't get a chance to run.  You do not use display_errors on a live site simply because it gives away too much information to the public.
+
+
+For PURSUE I have two files:
+
+registrations.html  which is a html page with a form that calls handle_registrations.php.  The script uses the $_POST variables to look up course details from a two dimensional array and display the.  It also uses an if statement to determine what payment message to display depending on the choice made on the form.
